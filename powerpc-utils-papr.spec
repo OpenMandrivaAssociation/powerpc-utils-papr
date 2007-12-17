@@ -12,7 +12,6 @@ Group:		System/Configuration/Hardware
 Url:		http://powerpc-utils.ozlabs.org/
 ExclusiveArch:	ppc ppc64
 BuildRequires:	librtas-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The powerpc-utils-papr package provides the utilities listed below
