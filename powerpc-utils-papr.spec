@@ -1,6 +1,6 @@
 %define name	powerpc-utils-papr
 %define version	0.0.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Maintenance utilities for IBM POWER platforms
 Name:		%{name}
