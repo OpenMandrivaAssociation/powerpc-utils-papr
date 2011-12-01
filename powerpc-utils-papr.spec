@@ -40,16 +40,16 @@ follow the POWER Architecture Platform Reference.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %makeinstall_std
-rm -rf $RPM_BUILD_ROOT%{_datadir}/doc
+rm -rf %{buildroot}%{_datadir}/doc
 
 # XXX check what to actually do with this one
-rm -f $RPM_BUILD_ROOT%{_sysconfdir}/init.d/ibmvscsis.sh
+rm -f %{buildroot}%{_sysconfdir}/init.d/ibmvscsis.sh
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
