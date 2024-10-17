@@ -9,7 +9,7 @@ Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
 License:	IBM Common Public License
 Group:		System/Configuration/Hardware
-Url:		http://powerpc-utils.ozlabs.org/
+Url:		https://powerpc-utils.ozlabs.org/
 ExclusiveArch:	ppc ppc64
 BuildRequires:	librtas-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
