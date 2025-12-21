@@ -11,6 +11,7 @@ License:	IBM Common Public License
 Group:		System/Configuration/Hardware
 Url:		https://powerpc-utils.ozlabs.org/
 ExclusiveArch:	ppc ppc64
+BuildRequires:	make
 BuildRequires:	librtas-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
